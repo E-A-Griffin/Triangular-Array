@@ -23,6 +23,7 @@ necessary to be installed to run the program.
     c|___|___
     d|___|___|___
     e|___|___|___|___
+       a   b   c   d
    </pre></code>
    In the event that one does not have access to an sh-based shell, the 
    appropriate jar file may be found and executed on the path as follows:
