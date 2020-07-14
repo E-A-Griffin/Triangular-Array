@@ -8,26 +8,26 @@ Upon cloning or downloading the repository, a working version of the JRE is
 necessary to be installed to run the program.
 
 ## Usage
-    Given a sh-based shell, one may simply run
-    $ ./tri-arr $
-    to execute the program, which will then prompt the user for input.
+   Given a sh-based shell, one may simply run
+   <pre><code> ./tri-arr </code></pre>
+   to execute the program, which will then prompt the user for input.
     
-    Alternatively, one may also supply the array as a list of command-line
-    arguments in order to produce the triangular array. For example, to 
-    produce a triangular array based on the states a, b, c, d, e one would 
-    run 
-    $ ./tri-arr a b c d e $
-    which would produce
+   Alternatively, one may also supply the array as a list of command-line
+   arguments in order to produce the triangular array. For example, to 
+   produce a triangular array based on the states a, b, c, d, e one would 
+   run 
+   <pre><code> ./tri-arr a b c d e </pre></code>
+   which would produce
+   <pre><code> 
     b|___
     c|___|___
     d|___|___|___
-    e|___|___|___|__
-    
-    In the event that one does not have access to an sh-based shell, the 
-    appropriate jar file may be found and executed on the path as follows:
-    $ java -jar 
-      target/uberjar/triangular-array-0.1.0-SNAPSHOT-standalone.jar $
-    (Note, Windows users may need to replace all "/" with "\")
+    e|___|___|___|___
+   </pre></code>
+   In the event that one does not have access to an sh-based shell, the 
+   appropriate jar file may be found and executed on the path as follows:
+   <pre><code> java -jar target/uberjar/triangular-array-0.1.0-SNAPSHOT-standalone.jar </pre></code>
+   (Note, Windows users may need to replace all "/" with "\\")
 
 ## License
 
