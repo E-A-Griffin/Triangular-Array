@@ -1,32 +1,33 @@
-# triangular-array
+# Triangular-Array
 
-FIXME: description
+Program designed for creating simple triangular arrays in Clojure.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Upon cloning or downloading the repository, a working version of the JRE is 
+necessary to be installed to run the program.
 
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar triangular-array-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    Given a sh-based shell, one may simply run
+    $ ./tri-arr $
+    to execute the program, which will then prompt the user for input.
+    
+    Alternatively, one may also supply the array as a list of command-line
+    arguments in order to produce the triangular array. For example, to 
+    produce a triangular array based on the states a, b, c, d, e one would 
+    run 
+    $ ./tri-arr a b c d e $
+    which would produce
+    b|___
+    c|___|___
+    d|___|___|___
+    e|___|___|___|__
+    
+    In the event that one does not have access to an sh-based shell, the 
+    appropriate jar file may be found and executed on the path as follows:
+    $ java -jar 
+      target/uberjar/triangular-array-0.1.0-SNAPSHOT-standalone.jar $
+    (Note, Windows users may need to replace all "/" with "\")
 
 ## License
 
